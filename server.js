@@ -70,8 +70,8 @@ function sendMail(promiseData){
 		var mailOptions = {
 		    from    :  config.mailDetails.from, 
 		    to      :  config.mailDetails.to, 
-		    subject : 'RDEcoSystem API Health status ✔', 
-		    text    : 'Enclosed below the health report of all the RDEcoSystem APIs', 
+		    subject : 'API Health status ✔', 
+		    text    : 'Enclosed below the health report of all the APIs', 
 		    html    :  result.html 
 		};		
 

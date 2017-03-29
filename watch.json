@@ -1,0 +1,28 @@
+[{
+	"tag"    : "watch-get-json-request",
+	"uri"    : "http://10.7.35.236:8001/rdfoundationalfeed",
+    "method" : "GET",
+    "qs"     : {
+    	"page" : 0,
+    	"size" : 20
+    },
+    "json"   : true 
+},{
+	"tag"    : "watch-get-image-request",
+	"uri"    : "http://10.7.35.236:8001/rdimagedispatch",
+    "method" : "GET",
+    "qs"     : {
+    	"imgId" : "1234"
+    },
+    "headers" : {
+    	"Accept": "image/jpeg"
+    }
+},{
+    "tag"    : "watch-post-json-request",
+	"uri"    : "http://localhost:8001/insertEmployee",
+    "method" : "POST",
+    "body"   : {
+  		"employeeId": "1234"
+	},
+    "json"   : true 
+}]

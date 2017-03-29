@@ -1,0 +1,26 @@
+<div class="bodyContent">
+	<section class="header">
+		<h1>API Health Report</h1>
+	</section>
+	<section class="main">
+		<table>
+			<tr>
+				<th>Sno</th>
+				<th>Tag</th>
+				<th>Uri</th>
+				<th>Status</th>
+			</tr>
+			{{#each promiseData}}
+				<tr>
+					<td>{{inc @index}}</td>
+					<td>{{this.api.tag}}</td>
+					<td>{{this.api.uri}}</td>
+					<td>{{this.status}}</td>
+				</tr>
+			{{/each}}
+		</table>
+	</section>
+	<section class="footer">
+		<p>Powered by Macaw - Nielsen OGRDS Dashboard</p>
+	</section>
+</div>

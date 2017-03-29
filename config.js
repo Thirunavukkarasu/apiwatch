@@ -7,7 +7,7 @@ module.exports = {
 		port     : 25
 	},
 	mailDetails : {
-		from : 'Thirunavukkarasu.Muthusamy.ap@gmail.com',
-		to   : 'Thirunavukkarasu.Muthusamy.ap@gmail.com'
+		from : 'Thirunavukkarasu.Muthusamy@gmail.com',
+		to   : 'Thirunavukkarasu.Muthusamy@gmail.com'
 	}
 };
